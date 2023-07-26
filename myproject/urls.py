@@ -29,7 +29,6 @@ router.register(r'products', ProductViewSet)
 
 
 urlpatterns = [
-    path('api/products/<str:category_name>/', get_products_by_category, name='get_products_by_category'),
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
 ]
