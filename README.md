@@ -1,5 +1,3 @@
-# Baştan Sona Django Projesi
-
 # Proje Raporu - E-Ticaret Uygulaması
 
 ## Proje Açıklaması
