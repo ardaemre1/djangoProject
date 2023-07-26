@@ -19,9 +19,6 @@ from rest_framework import routers
 from myproject.views import ProductViewSet
 from django.conf import settings
 from django.conf.urls.static import static
-from myproject.views import get_products_by_category
-
-
 
 
 router = routers.DefaultRouter()

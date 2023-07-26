@@ -4,6 +4,8 @@ from .serializers import ProductSerializer
 from django.http import JsonResponse
 
 
+
+
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
