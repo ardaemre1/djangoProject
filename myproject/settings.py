@@ -28,8 +28,6 @@ MEDIA_URL = '/product_images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'product_images/')
 
 
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
