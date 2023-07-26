@@ -23,8 +23,6 @@ def get_products_by_category(request, category_name):
                 'brand': product.brand,
                 'stock_status': product.stock_status,
                 'stock_quantity': product.stock_quantity,
-                'images': product.images.url,
-                
             }
             product_list.append(product_data)
         
