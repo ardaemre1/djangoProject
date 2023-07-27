@@ -28,17 +28,17 @@ MEDIA_URL = '/product_images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'product_images/')
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
 
-
 SECRET_KEY = 'django-insecure-n%(0)4a_*8dgw-6ei@rm%r!++e#t2&4n=qsrsdyn#it$#1xmau'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -140,6 +140,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
