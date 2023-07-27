@@ -6,7 +6,7 @@ class Product(models.Model):
     description = models.TextField(verbose_name='Açıklama')
     brand = models.CharField(max_length=50, verbose_name='Marka')
     stock_status = models.BooleanField(default=True, verbose_name='Stok Durumu')
-    images = models.ImageField(upload_to='product_images/', verbose_name='Resimler')
+    images = models.TextField(verbose_name='Resimler') 
     stock_quantity = models.PositiveIntegerField(default=0, verbose_name='Stok Miktarı')
 
     def __str__(self):
