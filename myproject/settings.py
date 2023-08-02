@@ -67,6 +67,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", 
+    "https://ecommerce-react-appardaemrekarabacak.onrender.com/"
 ]
 
 ROOT_URLCONF = 'myproject.urls'
